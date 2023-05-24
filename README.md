@@ -85,6 +85,6 @@ for result in client.replicate()? {
     if !table_names.contains(&table_name.as_str()) {
         continue; // Skip events for tables not in the list
     }
-     ```
+ ```
 
   
