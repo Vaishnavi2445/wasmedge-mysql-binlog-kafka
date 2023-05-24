@@ -8,6 +8,7 @@ let table_names: Vec<&str> = vec!["table1", "table2", "table3"];  // Replace wit
 
 
 2.)  Update the loop where the binlog events are processed to filter events based on the table names:
+
 for result in client.replicate()? {
     let (header, event) = result?;
 
