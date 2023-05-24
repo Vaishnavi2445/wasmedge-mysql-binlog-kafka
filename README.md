@@ -3,9 +3,9 @@ WasmEdge project: A stream log processing framework for WasmEdge!
 
 To modify the code to meet the requirements:
 
-# 1.)  Add a vector to hold the table names:
+## 1.)  Add a vector to hold the table names:
 
-let table_names: Vec<&str> = vec!["table1", "table2", "table3"];  // Replace with actual table names
+''' let table_names: Vec<&str> = vec!["table1", "table2", "table3"];  // Replace with actual table names '''
 
 
 # 2.)  Update the loop where the binlog events are processed to filter events based on the table names:
