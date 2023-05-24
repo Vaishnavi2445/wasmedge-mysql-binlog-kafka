@@ -91,8 +91,6 @@ for result in client.replicate()? {
 
 ```
 
-Sure, here is the output of the code:
-
 ============================================== Event from Apache Kafka ==========================================================================
 
 Value: {"database":"test","table":"table1","row":{"id":1,"name":"John Doe"}}
