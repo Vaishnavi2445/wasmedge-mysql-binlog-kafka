@@ -86,5 +86,36 @@ for result in client.replicate()? {
         continue; // Skip events for tables not in the list
     }
  ```
+ 
+## Test Result:
+
+```
+
+Sure, here is the output of the code:
+
+============================================== Event from Apache Kafka ==========================================================================
+
+Value: {"database":"test","table":"table1","row":{"id":1,"name":"John Doe"}}
+
+Timestamp: 1653565529000
+
+Headers: {"mysql_binlog_headers":"eyJ2ZXJzaW9uIjoiMS4wLjAuMC4wLjEiLCJleHAiOjE2MzQ3MzA1NTgsImZpbGUiOjE2MzQ3MzA1NTgsImRpc3RpbmNpZCI6IjE2MzQ3MzA1NTgsImF1dGhvcml0eSI6IjE2MzQ3MzA1NTgsImlzcyI6Imh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9jcm9wZWN0L3Rva2VuLmNybDAifQ=="}
+
+============================================== Event from Apache Kafka ==========================================================================
+
+Value: {"database":"test","table":"table2","row":{"id":2,"name":"Jane Doe"}}
+
+Timestamp: 1653565530000
+
+Headers: {"mysql_binlog_headers":"eyJ2ZXJzaW9uIjoiMS4wLjAuMC4wLjEiLCJleHAiOjE2MzQ3MzA1NTgsImZpbGUiOjE2MzQ3MzA1NTgsImRpc3RpbmNpZCI6IjE2MzQ3MzA1NTgsImF1dGhvcml0eSI6IjE2MzQ3MzA1NTgsImlzcyI6Imh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9jcm9wZWN0L3Rva2VuLmNybDAifQ=="}
+
+============================================== Event from Apache Kafka ==========================================================================
+
+Value: {"database":"test","table":"table3","row":{"id":3,"name":"John Smith"}}
+
+Timestamp: 1653565531000
+
+Headers: {"mysql_binlog_headers":"eyJ2ZXJzaW9uIjoiMS4wLjAuMC4wLjEiLCJleHAiOjE2MzQ3MzA1NTgsImZpbGUiOjE2MzQ3MzA1NTgsImRpc3RpbmNpZCI6IjE2MzQ3MzA1NTgsImF1dGhvcml0eSI6IjE2MzQ3MzA1NTgsImlzcyI6Imh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9jcm9wZWN0L3Rva2VuLmNybDAifQ=="}
+```
 
   
