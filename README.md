@@ -87,6 +87,10 @@ for result in client.replicate()? {
     }
  ```
  
+## Test Code:
+
+[Test Code]([https://github.com/Vaishnavi2445/wasmedge-mysql-binlog-kafka/tree/main#readme](https://github.com/Vaishnavi2445/wasmedge-mysql-binlog-kafka/blob/main/src/main.rs))
+ 
 ## Test Result:
 
 ```
