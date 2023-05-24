@@ -1,0 +1,15 @@
+[package]
+name = "mysql-binlog-kafka"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasmedge = "0.0.0"
+chrono = "0.4.24"
+mysql_cdc = "0.1.6"
+rskafka_wasi = "0.3.1"
+serde_json = "1.0.95"
+tokio_wasi = {version = '1.21', features = ["rt", "macros"]}
+
