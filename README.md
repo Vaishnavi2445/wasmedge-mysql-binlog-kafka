@@ -11,7 +11,6 @@ let table_names: Vec<&str> = vec!["table1", "table2", "table3"];  // Replace wit
 
 for result in client.replicate()? {
     let (header, event) = result?;
-
     // Get the table name from the event
     let table_name = match &event {
         BinlogEvent::TableMapEvent(table_map_event) => {
